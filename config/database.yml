@@ -13,10 +13,10 @@ development:
   <<: *default
   database: db/ruby_thursday_development
 
-  test:
-    <<: *default
-    database: db/ruby_thursday_test
+test:
+  <<: *default
+  database: db/ruby_thursday_test
 
-  production:
-    <<: *default
+production:
+  <<: *default
 database: db/ruby_thursday_production
